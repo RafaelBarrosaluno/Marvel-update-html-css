@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Heroes Showcase</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .hero-section h2 {
+            margin: 10px 0;
+        }
+        .hero-section img {
+            width: 80%;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        .hero-section video {
+            width: 80%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        .description {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Background for each hero section */
+        .hero1 { background: linear-gradient(135deg, #ff7e5f, #feb47b); }
+        .hero2 { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+        /* Add more hero backgrounds as needed */
+    </style>
+</head>
+<body>
+
+    <!-- Hero 1 Section -->
+    <section class="hero-section hero1">
+        <h2>Hero Name 1</h2>
+        <img src="hero1.jpg" alt="Hero 1">
+        <video controls>
+            <source src="hero1-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="description">This is a short description of Hero 1. Learn about their abilities and gameplay style!</p>
+    </section>
+
+    <!-- Hero 2 Section -->
+    <section class="hero-section hero2">
+        <h2>Hero Name 2</h2>
+        <img src="hero2.jpg" alt="Hero 2">
+        <video controls>
+            <source src="hero2-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="description">This is a short description of Hero 2. Discover their unique skills and strengths!</p>
+    </section>
+
+</body>
+</html>
